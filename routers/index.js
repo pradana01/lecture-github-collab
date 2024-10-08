@@ -6,5 +6,7 @@ router.get('/', () => {
 });
 
 router.get('/login', Controller.login);
+route.get('/register', Controller.register);
+
 
 module.exports = router;
